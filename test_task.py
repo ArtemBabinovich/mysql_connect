@@ -6,9 +6,9 @@ def connect():
     """ Connect to MySQL database """
     try:
         conn = mysql.connector.connect(host='localhost',
-                                       database='test_task',
-                                       user='root',
-                                       password='Password123@')
+                                       database='your_name_db',
+                                       user='your_login',
+                                       password='your_password')
         if conn.is_connected():
             print('Connected to MySQL database')
 
